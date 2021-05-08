@@ -6,11 +6,11 @@
     "heroku-postbuild": "ng build --prod --aot",
     "start-local": "ng serve",
     "start": "node server.js",
-    "build": "ng build",
+    "build": "ng build --prod --aot",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "fb-build-deploy": "ng build --prod && firebase deploy"
+    "fb-build-deploy": "ng build --prod --aot && firebase deploy"
   },
   "engines": {
     "node": "12.14.1",
