@@ -1,0 +1,16 @@
+video {
+  width: 100%;
+  background: gray;
+}
+
+p.video-description {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0.5em;
+}
