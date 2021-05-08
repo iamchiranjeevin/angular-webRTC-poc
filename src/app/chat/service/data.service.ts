@@ -4,6 +4,7 @@ import { webSocket, WebSocketSubject } from 'rxjs/internal-compatibility';
 import { Message } from 'src/app/types/message';
 
 export const WS_ENDPOINT = 'ws://localhost:8081';
+// export const WS_ENDPOINT = 'https://webrtc-nodejs-server.herokuapp.com/';
 
 @Injectable({
   providedIn: 'root'
