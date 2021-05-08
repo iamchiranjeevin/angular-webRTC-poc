@@ -27,6 +27,7 @@ export class ChatComponent implements OnInit, AfterViewInit {
 
   private async requestMediaDevices(): Promise<void> {
     this.localStream = await navigator.mediaDevices.getUserMedia(mediaConstraints);
+    /* pause video on first load */
     this.pauseLocalVideo();
   }
 
