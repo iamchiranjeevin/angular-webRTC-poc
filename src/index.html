@@ -12,5 +12,29 @@
 </head>
 <body class="mat-typography">
   <app-root></app-root>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCCbiaAfGirD-MKg_PHT3uyqecTFv_iNUY",
+    authDomain: "webrtc-signalling-server-7f815.firebaseapp.com",
+    projectId: "webrtc-signalling-server-7f815",
+    storageBucket: "webrtc-signalling-server-7f815.appspot.com",
+    messagingSenderId: "630580565997",
+    appId: "1:630580565997:web:0b44cc2827a20c637eb9e4",
+    measurementId: "G-FY4B0T2HYF"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 </html>
