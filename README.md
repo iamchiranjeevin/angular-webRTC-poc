@@ -1,4 +1,6 @@
 # AngularWebRTCPoc
+### A video calling app using Angular v11.2.10 and webRTC
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
 
